@@ -1,0 +1,46 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 2px solid #ccc;
+}
+.Logo {
+  font-size: 1.8rem;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+li {
+  margin: 10px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+.joinbtn {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 22px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-icon {
+  font-size: 32px;
+  margin-right: 20px;
+}
+
+.cart-area {
+  text-decoration: none;
+  color: black;
+}
